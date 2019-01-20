@@ -1,0 +1,109 @@
+x C-S-BackSpace   	openbox --reconfigure
+o W-KP_1          	UnmaximizeFull
+o W-KP_2          	UnmaximizeFull
+o W-KP_3          	UnmaximizeFull
+o W-KP_4          	UnmaximizeFull
+o W-KP_5          	MaximizeFull
+o W-KP_6          	UnmaximizeFull
+o W-KP_7          	UnmaximizeFull
+o W-KP_8          	UnmaximizeFull
+o W-KP_9          	UnmaximizeFull
+o C-A-Right       	DesktopRight
+o C-A-Left        	GoToDesktop
+o C-A-Up          	GoToDesktop
+o C-A-Down        	GoToDesktop
+o A-Tab           	NextWindow
+o A-S-Tab         	PreviousWindow
+o W-S-Right       	DirectionalCycleWindows
+o W-S-Left        	DirectionalCycleWindows
+o W-S-Up          	DirectionalCycleWindows
+o W-S-Down        	DirectionalCycleWindows
+o S-A-Left        	SendToDesktopLeft
+o S-A-Right       	SendToDesktopRight
+o S-A-Up          	SendToDesktopUp
+o S-A-Down        	SendToDesktopDown
+o A-Escape        	Lower
+o A-space         	client-menu
+x XF86AudioStop   	playerctl pause
+x XF86AudioPlay   	playerctl play-pause
+x XF86AudioPrev   	playerctl previous
+x XF86AudioNext   	playerctl next
+x XF86MonBrightnessUp	xbacklight +10
+x XF86MonBrightnessDown	xbacklight -10
+x Print           	scrot 'ArcoLinux_%Y-%m-%d-%S_$wx$h.png' -e 'mv $f $$(xdg-user-dir PICTURES)'
+x A-Print         	scrot -d 5 'ArcoLinux_%Y-%m-%d-%S_$wx$h.png' -e 'mv $f $$(xdg-user-dir PICTURES)'
+x C-Print         	xfce4-screenshooter
+x A-F2            	gmrun
+x A-F3            	xfce4-appfinder
+x W-d             	rofi -show run
+o A-F4            	Close
+o A-F5            	Iconify
+o A-F6            	ToggleMaximize
+o A-F8            	ToggleDecorations
+o S-W-d           	ToggleShowDesktop
+o W-b             	ToggleDecorations
+x W-f             	exo-open --launch FileManager
+x W-t             	exo-open --launch TerminalEmulator
+x C-A-Return      	exo-open --launch TerminalEmulator
+x W-w             	exo-open --launch WebBrowser
+x W-k             	slimlock
+x W-e             	geany
+x W-m             	pragha
+x W-h             	urxvt -T 'htop task manager' -e htop
+x W-v             	pavucontrol
+x C-A-u           	pavucontrol
+x W-x             	oblogout
+x C-A-Delete      	oblogout
+x W-Escape        	xkill
+o W-Tab           	client-list-combined-menu
+o W-space         	root-menu
+o W-Right         	UnmaximizeFull
+o W-Left          	UnmaximizeFull
+o W-Up            	MaximizeFull
+o W-Down          	UnmaximizeFull
+o W-A-Left        	UnmaximizeFull
+o W-A-Right       	UnmaximizeFull
+o A-r             	Resize
+o A-m             	Move
+x A-t             	variety -t
+x A-f             	variety -f
+x A-p             	variety -p
+x A-Left          	variety -p
+x A-n             	variety -n
+x A-Right         	variety -n
+x A-Down          	variety --resume
+x A-Up            	variety --pause
+x W-Pause         	oblogout
+o S-W-q           	Close
+x W-Return        	urxvt
+x S-W-Return      	thunar
+x W-F1            	exo-open --launch webbrowser
+x W-F2            	subl3
+x W-F3            	inkscape
+x W-F4            	gimp
+x W-F5            	meld
+x W-F6            	vlc
+x W-F7            	virtualbox
+x W-F8            	thunar
+x W-F9            	evolution
+x W-F10           	spotify
+x W-F11           	rofi -show run -fullscreen -font "Noto Sans 13"
+x W-F12           	rofi -show run -font "Noto Sans 13"
+x C-S-Escape      	xfce4-taskmanager
+o C-A-q           	root-menu
+x C-A-m           	xfce4-settings-manager
+x C-A-r           	rofi-theme-selector
+x C-A-j           	obmenu3
+x C-A-k           	obkey
+x C-A-a           	xfce4-appfinder
+x C-A-T           	termite
+o C-A-d           	ToggleShowDesktop
+x C-A-V           	vivaldi-stable
+x C-A-B           	thunar
+x C-A-W           	subl3
+x C-A-S           	spotify
+x C-A-C           	catfish
+x C-A-i           	nitrogen
+x C-A-O           	obconf
+x C-A-F           	firefox
+x C-A-G           	chromium
