@@ -7,6 +7,9 @@
 
 > All wm dot files, scripts, fun scripts included.
 
+*i3wm With Drak*
+![alt text](https://github.com/lalantham/dotfiles/blob/master/Screens/i3-dark.png)
+
 *XFCE4 With Drak*
 ![alt text](https://github.com/lalantham/dotfiles/blob/master/Screens/xfce-dark.png)
 
