@@ -1,0 +1,65 @@
+Xft.dpi: 96
+Xft.antialias: true
+Xft.hinting: true
+Xft.rgba: rgb
+Xft.autohint: true
+Xft.hintstyle: hintfull
+Xft.lcdfilter: lcdfilter
+URxvt.internalBorder:  15
+
+URxvt*imLocale: en_US.UTF-8
+
+URxvt*termName: rxvt-unicode-256color
+Urxvt*buffered: false
+URxvt.intensityStyles: false
+URxvt.font: xft:UbuntuMono Nerd Font:size=14, \
+            xft:Inconsolata Nerd Font Mono:size=13, \
+            xft:DejaVuSansMono Nerd Font:size=13, \
+            xft:DroidSansMono Nerd Font:size=13, \
+            xft:FuraMono Nerd Font:size=13, \
+            xft:RobotoMono Nerd Font:size=13, \
+            xft:Noto Sans Mono:size=13, \
+            xft:Monospace:style=Medium:antialias=false   
+URxvt.saveLines: 2000
+URxvt.scrollBar: false
+URxvt.cursorColor: white
+
+!! Extensions
+URxvt.perl-ext-common: default,matcher,resize-font,url-select,keyboard-select,clipboard
+URxvt.colorUL: #4682B4
+!! url-select
+URxvt.keysym.M-u: perl:url-select:select_next
+URxvt.url-select.launcher: urxvt -e lynx -cfg=~/.lynx.cfg -lss=~/.lynx.lss
+URxvt.url-select.underline: true
+!! keyboard-select:
+URxvt.keysym.M-Escape: perl:keyboard-select:activate
+!! resize-font
+URxvt.resize-font.smaller: C-j
+URxvt.resize-font.bigger:  C-k
+!! Matcher
+URxvt.url-launcher:	urxvt -e lynx -cfg=~/.lynx.cfg -lss=~/.lynx.lss
+URxvt.matcher.button: 1
+!!clipboard
+URxvt.keysym.M-c: perl:clipboard:copy
+URxvt.keysym.M-v: perl:clipboard:paste
+URxvt*depth: 32
+
+*background:	 #2F343F
+*foreground:	#FDFDFD
+*cursorColor:	#C574DD
+*color0:	#282A36
+*color1:	#F37F97
+*color2:	#5ADECD
+*color3:	#F2A272
+*color4:	#8897F4
+*color5:	#C574DD
+*color6:	#79E6F3
+*color7:	#FDFDFD
+*color8:	#414458
+*color9:	#FF4971
+*color10:	#18E3C8
+*color11:	#FF8037
+*color12:	#556FFF
+*color13:	#B043D1
+*color14:	#3FDCEE
+*color15:	#BEBEC1

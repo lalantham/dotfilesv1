@@ -1,0 +1,53 @@
+#!/bin/sh
+# Applications you want to run with fluxbox.
+# MAKE SURE THAT APPS THAT KEEP RUNNING HAVE AN ''&'' AT THE END.
+
+# Load bitmap fonts
+xset fp+ ~/.fonts/misc &
+
+## Who don't love an eye candy shadow?? Launch compton
+compton -b --config ~/.config/compton.conf &
+
+## Music is my only friend :(
+mpd &
+
+## Fontconfig needs a settings daemon to be loaded.
+## If You think xfsettingsd is too bloated, use xsettingsd :)
+xsettingsd &
+
+## Set wallpaper
+fbsetbg -f ~/.fluxbox/backgrounds/paw.jpg
+#fbsetbg -l
+
+## Clipboard Manager
+(sleep 3; clipit) &
+
+## I love my wife! Upss typo, I mean wifi
+(sleep 5; nm-applet) &
+
+## Volume control for systray
+(sleep 2; volumeicon) &
+
+## Tint2 panel, better than Fluxbox Toolbar
+tint2 -c ~/.fluxbox/tint2rc &
+
+# And last but not least we start fluxbox.
+# Because it is the last app you have to run it with ''exec'' before it.
+
+exec fluxbox
+# or if you want to keep a log:
+# exec fluxbox -log "/home/addy/.fluxbox/log"
+
+/usr/libexec/polkit-gnome-authentication-agent-1 &
+
+xrandr --output HDMI1 --off --output LVDS1 --primary --mode 1366x768 --pos 0x0 --rotate normal --output VIRTUAL1 --off --output DP1 --off --output VGA1 --mode 1024x768 --pos 1366x0 --rotate normal &
+
+numlockx &
+
+(xfce4-clipman) &
+
+xfce4-power-manager &
+
+xfsettingsd &
+
+nitrogen --restore &

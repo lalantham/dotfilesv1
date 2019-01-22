@@ -1,0 +1,52 @@
+sw_volume: 100
+audio_device_state:1:mpd-alsa
+audio_device_state:1:toggle_visualizer
+state: stop
+current: 37
+random: 0
+repeat: 0
+single: 0
+consume: 0
+crossfade: 0
+mixrampdb: 0.000000
+mixrampdelay: -1.000000
+playlist_begin
+0:My List/Adambarai baluwamanam - Sureni Ft. Iraj & killer B.mp3
+1:My List/Kasthuri Suwanda...mp3
+2:My List/Landu - Dtap.mp3
+3:My List/Mathakada Hendawe - Sinhawalokanaya From www.Music.lk.mp3
+4:My List/Pahasara - Centigradz.mp3
+5:My List/Sanda Ewith Hidi - Chamika Sirimanna & Uresha Ravihari.mp3
+6:My List/Supem Suwandak Aran.mp3
+7:My List/Iraj - Hithuwakkaari.mp3
+8:My List/Iraj - Oba hinda.mp3
+9:My List/Iraj - Mata sithanna baa (Sinhala Version).mp3
+10:My List/Iraj - Mathaka mandira (Chanchala).mp3
+11:My List/Iraj - Mata aloke genadevi.mp3
+12:My List/Bathiya & Santhush - Res Vihidena Samanaliyak.mp3
+13:My List/Randhir - Mal Madahasa.mp3
+14:My List/Kapil - Hitha Hadaganna Baa.mp3
+15:My List/Bathiya - Lassana Desak (feat. Umaria & Randhir).mp3
+16:My List/Bathiya Jayakody - Oba Enna Aye (feat. Meena Prashadini).mp3
+17:My List/Ranidu - Unmada Dethol (New York Mix).mp3
+18:My List/Ranidu - Paa salamba Sala.mp3
+19:My List/Ranidu - Herde Keniththuwa.mp3
+20:My List/Ranidu - Kelle (Hitfactory Mix).mp3
+21:My List/Centigradz - Roosiri.mp3
+22:My List/Bathiya & Santhush - Dedunna Sedi.mp3
+23:My List/Bathiya & Santhush - Master Sir.mp3
+24:My List/Bathiya & Santhush - Ma Handawala.mp3
+25:My List/Bathiya & Santhush - Hitha Wawannema Ne.mp3
+26:My List/Bathiya & Santhush - Sara Sihina.mp3
+27:My List/Bathiya & Santhush - Ne No.mp3
+28:My List/Bathiya & Santhush - Yalpaname.mp3
+29:My List/Bathiya & Santhush - Hitha Nambara Thaleta.mp3
+30:My List/Bathiya & Santhush - Gum Nade.mp3
+31:My List/Bathiya & Santhush - Pathu Pem Pathum.mp3
+32:My List/Centigradz - Sitha Saluna.mp3
+33:My List/Centigradz - Kotuwa.mp3
+34:My List/Sachin Rakitha Eranga - Dampata Handave.mp3
+35:My List/Bathiya & Santhush - Ran Kurahan Mala.mp3
+36:My List/Bathiya & Santhush - Mal Pan Podak.mp3
+37:My List/Chamika sirimanna - Wen Wee Dan.mp3
+playlist_end
