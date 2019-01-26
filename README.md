@@ -7,22 +7,22 @@
 
 > All wm dot files, scripts, fun scripts included.
 
-*i3wm With Drak*
+*I3*
 ![alt text](https://github.com/lalantham/dotfiles/blob/master/Screens/i3-dark.png)
 
-*Openbox With Drak*
+*OPENBOX*
 ![alt text](https://github.com/lalantham/dotfiles/blob/master/Screens/openbox-dark.png)
 
 *FVWM*
 ![alt text](https://github.com/lalantham/dotfiles/blob/master/Screens/fvwm.png)
 
-*Fluxbox With Drak*
+*FLUXBOX*
 ![alt text](https://github.com/lalantham/dotfiles/blob/master/Screens/fluxbox-dark.png)
 
-*Qtile*
-![alt text](https://i.ibb.co/HdZZBCC/qtile.png)
+*QTILE*
+![alt text](https://i.ibb.co/sH77bCC/qtile.png)
 
-*XFCE4 With Drak*
+*XFCE4*
 ![alt text](https://github.com/lalantham/dotfiles/blob/master/Screens/xfce-dark.png)
 
 :octocat:  **Me**<br/>
