@@ -20,7 +20,7 @@
 ![alt text](https://github.com/lalantham/dotfiles/blob/master/Screens/fluxbox-dark.png)
 
 *QTILE*
-![alt text](https://i.ibb.co/sH77bCC/qtile.png)
+![alt text](https://i.ibb.co/Zm99GSS/qtile.png)
 
 *XFCE4*
 ![alt text](https://github.com/lalantham/dotfiles/blob/master/Screens/xfce-dark.png)
