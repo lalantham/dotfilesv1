@@ -19,6 +19,9 @@
 *Fluxbox With Drak*
 ![alt text](https://github.com/lalantham/dotfiles/blob/master/Screens/fluxbox-dark.png)
 
+*Qtile*
+![alt text](https://i.ibb.co/HdZZBCC/qtile.png)
+
 *XFCE4 With Drak*
 ![alt text](https://github.com/lalantham/dotfiles/blob/master/Screens/xfce-dark.png)
 
