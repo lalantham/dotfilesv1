@@ -1,10 +1,17 @@
 :arrow_right: **My Personal Linux Dotfiles...**
 
+Used Linux since 3 years. This repository serves as a place to backup my dotfiles and scripts. I have configured five window managers including i3, openbox, fluxbox, fvwm and qtile. Currently my primary window manager is openbox with rofi ( Programe Luncher ), URXVT & Termite ( Terminals ) , Nemo ( GUI File Manager ),  Ranger ( TUI File Manager), MPD, NCMPCPP ( Music Player ), Feh ( Image viewer ).
+
+My Windows Managers
 - i3
 - openbox
 - fvwm
 - fluxbox
 - qtile
+
+Desktop Enviroments
+- ~~KDE~~
+- XFCE
 
 > All wm dot files, scripts, fun scripts included.
 
