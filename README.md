@@ -4,6 +4,7 @@
 - openbox
 - fvwm
 - fluxbox
+- qtile
 
 > All wm dot files, scripts, fun scripts included.
 
